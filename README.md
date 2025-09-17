@@ -21,6 +21,11 @@ O site apresenta os cursos, a equipe e formas de contato, facilitando o acesso a
 
 ---
 
+## 🖼️ Prévia da Aplicação
+![Página inicial do projeto](./assets/homepage.png)  
+
+---
+
 ## 🛠️ Tecnologias Utilizadas  
 - **Tipo:** Aplicação Web  
 - **Linguagens/Frameworks/Bancos de Dados:** HTML, CSS e JavaScript  
