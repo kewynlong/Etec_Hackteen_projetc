@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dev Juniors • Sobre Nós</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="topbar" role="banner">
+  <div class="container row">
+    <a class="logo" href="index.html">
+      <span class="logo-badge">DJ</span><span>Dev Juniors</span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="index.html" class="active">Início</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="servicos.html">Cursos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="spacer"></div>
+    <div class="controls">
+      <div class="theme-toggle">
+        <span class="muted">Tema</span>
+        <button class="btn btn-ghost" id="theme-toggle" aria-label="Alternar tema">🌓</button>
+      </div>
+      <div class="theme-toggle">
+        <span class="muted">Fonte</span>
+        <button class="btn btn-ghost" id="font-dec" aria-label="Diminuir fonte">A-</button>
+        <button class="btn btn-ghost" id="font-inc" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Sobre nós</h1>
+      <p>História, missão, visão e valores da startup. Conheça a equipe por trás do Dev Juniors.</p>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2>Missão</h2>
+      <p>Inserir iniciantes no mercado de tecnologia com trilhas práticas e acessíveis.</p>
+      <h2>Visão</h2>
+      <p>Ser a porta de entrada mais acolhedora e eficiente para devs brasileiros.</p>
+      <h2>Valores</h2>
+      <ul>
+        <li>Acessibilidade e inclusão</li>
+        <li>Aprendizado prático e contínuo</li>
+        <li>Comunidade e colaboração</li>
+      </ul>
+      <h2>Equipe</h2>
+      <div class="grid">
+        <article class="card"><div class="body"><h3>Anny Gabrielly da Silva</h3><p class="muted">Front-end</p></div></article>
+        <article class="card"><div class="body"><h3>Ana Vitoria Marcelino da Cruz Vieira</h3><p class="muted">Back-end</p></div></article>
+        <article class="card"><div class="body"><h3>Kewyn Marcelo de Souza Lima</h3><p class="muted">.css</p></div></article>
+        <article class="card"><div class="body"><h3>Pedro Bertaco Whiteman</h3><p class="muted">Java</p></div></article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="container row" style="justify-content:space-between; align-items:center">
+    <span>© <span id="y"></span> Dev Juniors. Todos os direitos reservados.</span>
+    <div class="row" style="gap:10px">
+      <a href="#" aria-label="Termos de uso">Termos</a>
+      <a href="#" aria-label="Política de privacidade">Privacidade</a>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+
+</body>
+</html>

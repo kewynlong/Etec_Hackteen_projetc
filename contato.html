@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dev Juniors • Contato</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="topbar" role="banner">
+  <div class="container row">
+    <a class="logo" href="index.html">
+      <span class="logo-badge">DJ</span><span>Dev Juniors</span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="index.html" class="active">Início</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="servicos.html">Cursos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="spacer"></div>
+    <div class="controls">
+      <div class="theme-toggle">
+        <span class="muted">Tema</span>
+        <button class="btn btn-ghost" id="theme-toggle" aria-label="Alternar tema">🌓</button>
+      </div>
+      <div class="theme-toggle">
+        <span class="muted">Fonte</span>
+        <button class="btn btn-ghost" id="font-dec" aria-label="Diminuir fonte">A-</button>
+        <button class="btn btn-ghost" id="font-inc" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Contato</h1>
+      <p>Fale com a nossa equipe. Responderemos em até 2 dias úteis.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <form id="contact-form" novalidate aria-describedby="form-help">
+        <div class="row">
+          <div style="flex:1">
+            <label for="name">Nome</label>
+            <input id="name" name="name" type="text" required placeholder="Seu nome completo" aria-required="true">
+            <div class="error" id="err-name" role="alert" aria-live="assertive"></div>
+          </div>
+          <div style="flex:1">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" required placeholder="voce@exemplo.com" aria-required="true">
+            <div class="error" id="err-email" role="alert" aria-live="assertive"></div>
+          </div>
+        </div>
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Como podemos ajudar?" aria-required="true"></textarea>
+        <div class="error" id="err-message" role="alert" aria-live="assertive"></div>
+        <p id="form-help" class="muted">Campos obrigatórios. Seus dados não serão compartilhados.</p>
+        <div class="row" style="gap:10px; margin-top:8px">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+          <button class="btn btn-ghost" type="reset">Limpar</button>
+        </div>
+        <p class="muted" style="margin-top:8px">Siga-nos:
+          <a href="#" aria-label="Instagram">Instagram</a> •
+          <a href="#" aria-label="YouTube">YouTube</a> •
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="container row" style="justify-content:space-between; align-items:center">
+    <span>© <span id="y"></span> Dev Juniors. Todos os direitos reservados.</span>
+    <div class="row" style="gap:10px">
+      <a href="#" aria-label="Termos de uso">Termos</a>
+      <a href="#" aria-label="Política de privacidade">Privacidade</a>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+
+</body>
+</html>

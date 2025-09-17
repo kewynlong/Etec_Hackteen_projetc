@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dev Juniors • Início</title>
+  <meta name="description" content="Plataforma de cursos de tecnologia para iniciantes (dev juniors).">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="topbar" role="banner">
+  <div class="container row">
+    <a class="logo" href="index.html">
+      <span class="logo-badge">DJ</span><span>Dev Juniors</span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="index.html" class="active">Início</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="servicos.html">Cursos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="spacer"></div>
+    <div class="controls">
+      <div class="theme-toggle">
+        <span class="muted">Tema</span>
+        <button class="btn btn-ghost" id="theme-toggle" aria-label="Alternar tema">🌓</button>
+      </div>
+      <div class="theme-toggle">
+        <span class="muted">Fonte</span>
+        <button class="btn btn-ghost" id="font-dec" aria-label="Diminuir fonte">A-</button>
+        <button class="btn btn-ghost" id="font-inc" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Plataforma de cursos para <span class="badge">Devs Iniciantes</span></h1>
+      <p>Trilhas Front-end, Back-end e Dados com aulas curtas, projetos práticos e comunidade.</p>
+      <div class="row" style="gap:10px">
+        <a class="btn btn-primary" href="servicos.html">Ver cursos</a>
+        <a class="btn" href="sobre.html">Conheça a startup</a>
+      </div>
+      <div class="row" style="gap:10px; margin-top:12px">
+        <span class="badge">HTML • CSS • JS</span>
+        <span class="badge">Responsivo</span>
+        <span class="badge">Acessível</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Trilhas em destaque</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="body">
+            <h3>Front-end do Zero</h3>
+            <p class="muted">HTML semântico, CSS moderno e JavaScript essencial.</p>
+            <a class="btn" href="servicos.html">Detalhes</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="body">
+            <h3>Back-end com Node.js</h3>
+            <p class="muted">REST, Express e persistência de dados para iniciantes.</p>
+            <a class="btn" href="servicos.html">Detalhes</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="body">
+            <h3>Introdução a Dados</h3>
+            <p class="muted">Pensamento analítico, CSV, visualização e mini projeto.</p>
+            <a class="btn" href="servicos.html">Detalhes</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="container row" style="justify-content:space-between; align-items:center">
+    <span>© <span id="y"></span> Dev Juniors. Todos os direitos reservados.</span>
+    <div class="row" style="gap:10px">
+      <a href="#" aria-label="Termos de uso">Termos</a>
+      <a href="#" aria-label="Política de privacidade">Privacidade</a>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+
+</body>
+</html>
