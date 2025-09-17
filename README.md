@@ -1,4 +1,4 @@
-# DjDev Junior ![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-blue)
+# DjDev Junior ![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0.5-blue)
 
 ## 📋 Sobre o Projeto
 **Instituição:** Etec Jacinto Ferreira de Sá  
