@@ -16,8 +16,8 @@ Muitas pessoas têm interesse em aprender tecnologia, mas não sabem por onde co
 A falta de recursos educativos gratuitos e claros dificulta o desenvolvimento de habilidades digitais.  
 
 ### 🚀 Descrição da Solução  
-A **EducaTech** oferece uma plataforma online que organiza cursos introdutórios de tecnologia de forma clara, acessível e gratuita.  
-O site apresenta os cursos, a equipe e formas de contato, facilitando o acesso ao aprendizado.  
+O **DjDev Junior** oferece uma plataforma online que organiza cursos introdutórios de tecnologia de forma clara, acessível e gratuita.  
+O site apresenta cursos, informações da equipe e canais de contato, criando uma porta de entrada acessível ao aprendizado digital.  
 
 ---
 
@@ -26,9 +26,22 @@ O site apresenta os cursos, a equipe e formas de contato, facilitando o acesso a
 
 ---
 
+## ✨ Funcionalidades
+- 🌙 **Alternância de tema** (claro/escuro) persistente via `localStorage`  
+- 🔠 **Controle de tamanho de fonte** para acessibilidade  
+- 📚 **Listagem dinâmica de cursos** (HTML, CSS, JS, Node.js, Dados, Lógica de Programação)  
+- 📝 **Formulário de contato validado** (nome, e-mail, mensagem) com simulação de envio e armazenamento local  
+- 📱 **Layout responsivo** e design moderno (grid, cards, badges)  
+- ♿ **Acessibilidade**: ARIA labels, feedback de erros e estrutura semântica  
+
+---
+
 ## 🛠️ Tecnologias Utilizadas  
 - **Tipo:** Aplicação Web  
-- **Linguagens/Frameworks/Bancos de Dados:** HTML, CSS e JavaScript  
+- **Linguagens/Frameworks:** HTML, CSS, JavaScript puro  
+- **Recursos adicionais:**  
+  - `localStorage` para salvar preferências (tema, fonte e mensagens do contato)  
+  - Estrutura semântica com acessibilidade  
 
 ---
 
@@ -36,7 +49,6 @@ O site apresenta os cursos, a equipe e formas de contato, facilitando o acesso a
 
 ### Pré-requisitos  
 - Navegador web atualizado (Google Chrome, Firefox, Edge, etc.)  
-- Não há dependências externas.  
 
 ### Instalação  
 1. Clone o repositório:  
